@@ -30,7 +30,7 @@ namespace WindowsFormsApp3
 		{
 			try
 			{
-				Socket client = listener.EndAcceptSocket(ar);
+				listener.EndAcceptSocket(ar);
 			}
 			catch (ObjectDisposedException ex)
 			{
